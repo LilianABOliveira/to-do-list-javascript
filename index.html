@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/fonts/fonts.css">
+    <title>To Do List | LO</title>
+</head>
+<body>
+    <h1>To Do List | LO</h1>
+    <div class="content">
+        <div class="content--add-item">
+            <input type="text" id="input-new-task" placeholder="Digite sua nova task">
+            <button onclick="newTask()" id="btn-new-task" title="Clique aqui para adicionar uma nova task">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                  </svg>
+            </button>
+        </div>
+        <div class="content--body">
+            <ol id="to-do-list">
+            </ol>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
